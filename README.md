@@ -2,13 +2,13 @@
 
 A machine learning project that predicts a student's final academic score using study habits, attendance, previous performance, assignment completion, and sleep hours.
 
-The project demonstrates a complete beginner-friendly machine learning workflow from data exploration and model training to an interactive Streamlit application.
+The project demonstrates a complete beginner-friendly machine learning workflow, from data exploration and model training to model comparison and an interactive Streamlit application.
 
 ---
 
 ## 📌 Project Overview
 
-The goal of this project is to build a machine learning model that can predict a student's final score based on several input features.
+The goal of this project is to build a machine learning model that predicts a student's final academic score based on different academic and lifestyle features.
 
 ### Input Features
 
@@ -26,7 +26,7 @@ The goal of this project is to build a machine learning model that can predict a
 
 ## 🧠 Machine Learning Approach
 
-This project uses **Linear Regression**, a supervised machine learning algorithm used for predicting continuous numerical values.
+This project uses supervised machine learning regression algorithms to predict a student's final academic score.
 
 ### Machine Learning Workflow
 
@@ -39,13 +39,13 @@ Feature Selection
    ↓
 Train/Test Split
    ↓
-Linear Regression
-   ↓
 Model Training
+   ↓
+Model Comparison
    ↓
 Prediction
    ↓
-MAE Evaluation
+MAE & R² Evaluation
    ↓
 Save Trained Model
    ↓
