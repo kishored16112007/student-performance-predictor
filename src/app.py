@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load("../models/student_model.pkl")
+model = joblib.load("models/student_model.pkl")
 
 # Title
 st.title("🎓 Student Performance Predictor")
